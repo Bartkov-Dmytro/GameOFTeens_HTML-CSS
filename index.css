@@ -1,0 +1,27 @@
+.section2 {
+    height: 800px;
+    background-color: #000000;
+    display: flex;
+}
+
+.content-section2 p {
+    color: #fff;
+    font-size: 20px;
+}
+
+.title-section2 {
+    font-size: 40px !important;
+}
+
+.img-section2 {
+    width: 499px;
+    height: 420px;
+    border-radius: 10px;
+    margin-right: 61px;
+}
+
+.content-section2{
+    display: flex;
+    margin-top: 123px;
+    margin-left: 20%;
+}
