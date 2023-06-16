@@ -3,7 +3,7 @@
 height: 800px;
 display: flex;
 gap: 94px;
-background-image: url(/img1.jpg);
+background-image: url('/assets/img1.jpg');
 background-repeat: no-repeat;
 background-size: 100%;
 }
