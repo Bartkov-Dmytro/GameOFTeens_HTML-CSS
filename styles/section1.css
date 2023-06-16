@@ -60,3 +60,37 @@ color: #FFFFFF;
     border-radius: 300px;
     margin-top: 140px;
 }
+/* styling of the information section */
+.information-results{
+    height: 336px;
+    background: #000000;
+    }
+    .results-inf{
+        display: flex;
+        gap: 184px;
+        padding-left: 275px;
+        padding-top: 106px;
+    }
+    .results>h3{
+    height: 49px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+    text-align: right;
+    padding-right: 50px;
+    color: #EBCD17;
+    }
+    .results>p{
+    width: 205px;
+    height: 55px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    padding-top: 16px;
+    color: #FFFFFF;
+    }
