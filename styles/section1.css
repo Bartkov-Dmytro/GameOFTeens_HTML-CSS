@@ -94,3 +94,52 @@ color: #FFFFFF;
     padding-top: 16px;
     color: #FFFFFF;
     }
+/* ----style cards---- */
+.section-cards{
+    height: 852px;
+    background: #000000;
+    }
+    .name-expectation{
+    width: 604px;
+    height: 49px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+    margin: 0 auto;
+    color: #FFFFFF;
+    }
+    .name-expectation span{
+        width: 604px;
+    height: 49px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+        color: #EBCD17;
+    }
+    .cards{
+        display: flex;
+        gap:45px;
+        margin-left: 176px;
+        margin-top: 60px;
+    }
+    .card-photo{
+        width: 315px;
+        height: 369px;
+        border-radius: 10px;
+        }
+    .expectation{
+    width: 315px;
+    height: 55px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 10px;
+    color: #FFFFFF;
+    }
