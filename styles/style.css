@@ -58,7 +58,12 @@ header {
     text-underline-offset: 10px;
 }
 
-.button {
+.general-links a:active {
+    color: rgb(206, 206, 206);
+}
+
+
+.header-button {
     background-color: #6648A2;
 
     width: 150px;
@@ -71,9 +76,23 @@ header {
     border-radius: 3px
 }
 
+.header-button:hover {
+    background-color: #503880;
+    
+    color: #bba61b;
+
+    cursor: pointer;
+}
+
+.header-button:active {
+    background-color: #48356e;
+    color: #a8961e;
+}
+
 .logo {
+    margin-right: 115px;
+}
+.logo img {
     max-width: 208px;
     max-height: 45px;
-
-    margin-right: 115px;
 }
