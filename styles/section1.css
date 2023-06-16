@@ -1,0 +1,62 @@
+/* one section */
+.one-section{
+height: 800px;
+display: flex;
+gap: 94px;
+background-image: url(/assets/img1.jpg);
+background-repeat: no-repeat;
+background-size: 100%;
+}
+.one-section-information{
+    padding-top: 164px;
+    padding-left: 144px;
+}
+/*-------- styles for title and text --------*/
+.name{
+width: 600px;
+height: 177px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 59px;
+color: #FFFFFF;
+}
+.name-text{
+width: 580px;
+height: 48px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+padding-top: 18px;
+color: #FFFFFF;
+}
+/*--------- button styling --------*/
+.button-register{
+width: 295px;
+height: 62px;
+background: #6648A2;
+border-radius: 3px;
+border: none;
+margin-top: 62px;
+}
+[class="button-register"]>span{
+width: 186px;
+height: 24px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+color: #FFFFFF;
+}
+/*---- photo styling----- */
+.foto-one{
+    width: 417px;
+    height: 418px;
+    filter: drop-shadow(0px 0px 70px #D7C2FF);
+    border-radius: 300px;
+    margin-top: 140px;
+}
