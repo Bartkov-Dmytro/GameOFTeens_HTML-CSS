@@ -1,0 +1,45 @@
+.section5 {
+    background-color: black;
+    height: 700px;
+}
+
+.map{
+    width: 1160px;
+    height: 465px;
+}
+
+.content1-section5{
+    margin-left: 11%;
+}
+
+.content2-section5{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    margin-top: 5%;
+    margin-left: 3%;
+}
+
+.button-section5 {
+    background-color: #6648A2;
+    width: 450px;
+    height: 50px;
+    color: #EBCD17;
+    font-size: 20px;
+    border: none;
+    border-radius: 3px;
+    text-decoration: none;
+    margin-left: 10%;
+    font-weight: 700;
+}
+
+.button-section5:hover {
+    background-color: #503880;
+    color: #bba61b;
+    cursor: pointer;
+}
+
+.button-section5:active {
+    background-color: #48356e;
+    color: #a8961e;
+}
