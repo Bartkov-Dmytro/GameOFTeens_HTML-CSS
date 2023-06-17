@@ -147,7 +147,7 @@ color: #FFFFFF;
     color: white;
     margin-bottom: 40px;
 }
-.certificate-title span{
+.certificate-title>span{
     width: 604px;
     height: 49px;
     font-family: 'Montserrat';
