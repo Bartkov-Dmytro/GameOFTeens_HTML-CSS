@@ -93,6 +93,30 @@ header {
     max-height: 45px;
 }
 
+.support-information {
+    background-color: black;
+
+    border-top: 1px solid #EBCD17;
+    border-bottom: 1px solid #EBCD17;
+}
+.support-information p {
+    font-size: 20px;
+    color: white;
+    
+    padding: 65px 0 65px 0;
+    text-align: center;
+}
+
+.certificate-section {
+    background-image: url(../assets/background-image2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 100vh;
+
+    display: flex;
+}
+
 
 
 
