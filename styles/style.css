@@ -265,6 +265,19 @@ color: #FFFFFF;
     }
 }
 @media (max-width : 900px) {
+    .certificate-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .certificate {
+        margin-top: 35px;
+    }
+    .certificate-section-div {
+        width: 500px;
+    }
+
     .container {
         padding: 0 60px 0 60px;
     }
@@ -317,3 +330,4 @@ color: #FFFFFF;
         justify-content: center;
     }
 }
+

@@ -2,11 +2,15 @@
     background-color: black;
     /* height: 700px; */
     height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    margin-top: -1px;
 }
 
 .map{
-    width: 1160px;
-    height: 465px;
+    max-width: 1160px;
+    max-height: 465px;
     margin-left: calc(50% - 580px);
 }
 
@@ -47,4 +51,30 @@
 .button-section5:active {
     background-color: #48356e;
     color: #a8961e;
+}
+
+@media (max-width : 1300px) {
+    .map{
+        width: 1000px;
+        height: 365px;
+        margin-left: calc(50% - 500px);
+    }
+}
+@media (max-width : 1100px) {
+    .map{
+        width: 750px;
+        height: 265px;
+        margin-left: calc(50% - 375px);
+    }
+}
+@media (max-width : 700px) {
+    .content2-section5 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .button-section5 {
+        margin: 0;
+        margin-top: 25px;
+    }
 }
