@@ -1,0 +1,39 @@
+.section2 {
+    height: 450px;
+    background-color: black;
+    margin-top: -10%;
+}
+
+.content-section2 p {
+    color: #fff;
+    font-size: 20px;
+    margin: 5%;
+    font-family: 'Montserrat';
+}
+
+.title-section2 {
+    font-size: 40px !important;
+}
+
+.img1-section2 {
+    width: 499px;
+    height: 420px;
+    border-radius: 10px;;
+}
+
+.img2-section2 {
+    width: 200px;
+    height: 242px;
+    margin-top: 10%;
+}
+
+.content1-section2{
+    display: flex;
+    margin-left: 15% ;
+    margin-top: 10%;
+}
+
+.content-section2{
+    margin-left: 5%;
+    margin-top: 5%;
+}
