@@ -87,7 +87,9 @@ color: #FFFFFF;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 40vh;
+    min-height: 220px;
+    max-height: 360px;
+    height: 35vh;
     background: #000000;
     }
     .results-inf{
@@ -406,4 +408,144 @@ color: #FFFFFF;
             bottom: -600px;
         }
     }
+    @media (max-width : 570px) {
+        .name {
+            height: 100px;
+            font-size: 32px;
+            line-height: 36px;
+        }
+        .name-text {
+            font-size: 16px;
+        }
+        .button-register {
+            width: 275px;
+            height: 52px;
+            margin-top: 57px;
+        }
+        .name-expectation span {
+            font-size: 28px;
+        }
+        .button-register span {
+            font-size: 16px;
+        }
+        .card-photo1 {
+            position: absolute;
+            top: -20px;
+            left: 20px;
+        }
+        .card-photo2 {
+            position: absolute;
+            top: 80px;
+            right: 5px;
+            bottom: -400px;
+        }
+        .card-photo3 {
+            position: absolute;
+            top: 270px;
+            left: 40px;
+            bottom: -600px;
+        }
+        .results-inf{
+            gap: 40px;
+        }
+        .results p {
+            width: 200px;
+        }
+        .middle-result {
+            position: absolute;
+            top: -80px;
+        }
+        .middle-result p {
+            width: 185px;
+        }
+        .information-results {
+            align-items: flex-end;
+            padding-bottom: 20px;
+        }
+    }
+    @media (max-width : 530px) {
+        .name {
+            height: 100px;
+            font-size: 26px;
+            line-height: 32px;
+        }
+        .button-register {
+            width: 260px;
+            height: 48px;
+            margin-top: 58px;
+        }
+        .name-expectation {
+            padding: 30px 0 30px 0;
+            font-size: 18px;
+        }
+        .name-expectation span {
+            font-size: 20px;
+        }
+        .results-inf h3 {
+            font-size: 30px;
+        }
+        .results p {
+            font-size: 14px;
+        }
+        .cards p {
+            font-size: 14px;
+        }
+    }
+    @media (max-width : 470px) {
+        .name {
+            height: 100px;
+            width: 340px;
+            font-size: 24px;
+            line-height: 30px;
+        }
+        .name-text {
+            width: 350px;
+            padding-top: 5px;
+        }
+        .results-inf{
+            gap: 10px;
+        }
+        .middle-result {
+        position: initial;
+    }
+    .results-inf {
+        flex-direction: column;
+        gap: 0;
+    }
+    .results-inf .middle-result p {
+        width: 200px;
+        height: 40px;
+    }
+    .results-inf h3 {
+        width: 200px;
+        height: 40px;
+    }
+    .information-results {
+        height: 320px;
+    }
+    .card-photo1 {
+        position: initial;
+    }
+    .card-photo2 {
+        position: initial;
+    }
+    .card-photo3 {
+        position: initial;
+    }
+    .cards {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .cards p {
+        margin-top: 5px;
+    }
+    .section-cards {
+        height: auto;
+    }
+    .card-photo {
+        width: 140px;
+        height: 195px;
+    }
+    }
+    
     
