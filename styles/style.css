@@ -94,9 +94,10 @@ header {
 }
 
 .support-information {
-    background-color: black;
+    /* background-color: black; */
+    margin-top: -1px;
 
-    border-top: 1px solid #EBCD17;
+    /* border-top: 1px solid #EBCD17; */
     border-bottom: 1px solid #EBCD17;
 }
 .support-information p {
@@ -108,15 +109,20 @@ header {
 }
 
 .certificate-section {
-    background-image: url(../assets/background-image2.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    /* background-image: url(../assets/background-image2.png); */
+    /* background-repeat: no-repeat;
+    background-size: cover; */
 
     height: 100vh;
 
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.certificate-section-back {
+    background-image: url(../assets/background-image2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .certificate {
     width: 700px;

@@ -1,24 +1,28 @@
 .section5 {
     background-color: black;
-    height: 700px;
+    /* height: 700px; */
+    height: 100vh;
 }
 
 .map{
     width: 1160px;
     height: 465px;
+    margin-left: calc(50% - 580px);
 }
 
-.content1-section5{
-    margin-left: 11%;
+.content1-section5 p{
+    /* margin-left: 11%; */
 }
 
 .content2-section5{
     display: flex;
     align-items: center;
+    justify-content: center;
     color: #fff;
     margin-top: 5%;
-    margin-left: 3%;
+    /* margin-left: 3%; */
 }
+
 
 .button-section5 {
     background-color: #6648A2;
@@ -31,6 +35,7 @@
     text-decoration: none;
     margin-left: 10%;
     font-weight: 700;
+    text-align: center;
 }
 
 .button-section5:hover {

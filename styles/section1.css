@@ -91,6 +91,7 @@ color: #FFFFFF;
     max-height: 360px;
     height: 35vh;
     background: #000000;
+    margin-bottom: -1px;
     }
     .results-inf{
         display: flex;
@@ -280,6 +281,9 @@ color: #FFFFFF;
         }
         .results-inf{
             gap: 160px;
+        }
+        .one-section {
+            justify-content: center;
         }
     }
     @media (max-width : 820px) {
