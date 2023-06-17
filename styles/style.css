@@ -109,9 +109,13 @@ color: #FFFFFF;
     border-bottom: 1px solid #EBCD17;
 }
 .support-information p {
-    font-size: 20px;
-    color: white;
-    
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+color: #FFFFFF;
     padding: 65px 0 65px 0;
     text-align: center;
 }
@@ -146,6 +150,16 @@ color: #FFFFFF;
     line-height: 49px;
     color: white;
     margin-bottom: 40px;
+}
+.certificate-title>span{
+    width: 604px;
+    height: 49px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 49px;
+        color: #EBCD17;
 }
 .certificate-text {
     font-family: 'Montserrat';
