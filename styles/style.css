@@ -198,7 +198,10 @@ color: #FFFFFF;
     }
 }
 @media (max-width : 1300px) {
-    
+    /* .certificate {
+        width: 520px;
+        height: 350px;
+    } */
 }
 @media (max-width : 1275px) {
     .logo {
@@ -206,6 +209,10 @@ color: #FFFFFF;
     }
     .general-links a {
         margin-right: 55px;
+    }
+    .certificate {
+        width: 520px;
+        height: 350px;
     }
 }
 @media (max-width : 1170px) {
@@ -226,6 +233,10 @@ color: #FFFFFF;
     .header-button {
         width: 140px;
         height: 40px;
+    }
+    .certificate {
+        width: 470px;
+        height: 300px;
     }
 }
 @media (max-width : 1000px) {
@@ -290,5 +301,12 @@ color: #FFFFFF;
 @media (max-width : 470px) {
     .container {
         padding: 0 15px 0 15px;
+    }
+}
+@media (max-width : 900px) {
+    .one-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 }
