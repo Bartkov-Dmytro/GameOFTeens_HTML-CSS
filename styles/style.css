@@ -147,6 +147,16 @@ color: #FFFFFF;
     color: white;
     margin-bottom: 40px;
 }
+.certificate-title span{
+    width: 604px;
+    height: 49px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 49px;
+        color: #EBCD17;
+}
 .certificate-text {
     font-family: 'Montserrat';
     font-style: normal;
